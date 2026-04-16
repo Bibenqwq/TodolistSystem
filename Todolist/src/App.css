@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.input-section input {
+  padding: 10px;
+  width: 200px;
+}
+
+.input-section button {
+  padding: 10px;
+  margin-left: 10px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: gray;
+}
