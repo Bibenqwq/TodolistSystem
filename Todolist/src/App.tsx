@@ -8,7 +8,7 @@ type Task = {
 };
 
 type Filter = "all" | "active" | "done";
-
+// Sa App.tsx, gagawin natin ang buong UI at logic ng ating To-Do List app.
 export default function App() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [input, setInput] = useState("");
