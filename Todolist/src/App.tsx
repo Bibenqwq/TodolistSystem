@@ -21,7 +21,7 @@ export default function App() {
   useEffect(() => {
     const darkMode = localStorage.getItem("dark");
     if (darkMode) setDark(JSON.parse(darkMode));
-
+// Fetch tasks from Supabase when the app loads
     fetchTasks();
   }, []);
 
